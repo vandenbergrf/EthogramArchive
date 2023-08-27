@@ -1,11 +1,12 @@
 ---
 title: "Main Page"
-author: "rf"
-date: "2023-08-27"
+date: "`r Sys.Date()`"
 output: 
   html_document:
     toc: true
     toc_depth: 2
+    toc_float: true
+    toc_collapsed: true
 ---
 
 ```{r setup, include=FALSE}

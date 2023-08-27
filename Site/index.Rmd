@@ -1,12 +1,15 @@
 ---
 title: "Site Subpage"
-author: "rf"
-date: "2023-08-27"
+date: "`r Sys.Date()`"
 output:   
   html_document:
     toc: true
     toc_depth: 2
+    toc_float: true
+    toc_collapsed: true
 ---
+
+[Return to Main](https://vandenbergrf.github.io/EthogramArchive/)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
