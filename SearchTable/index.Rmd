@@ -1,0 +1,33 @@
+---
+title: "Searchable Table of Species"
+date: "`r Sys.Date()`"
+output:   
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    toc_collapsed: true
+---
+
+[Return to Main](https://vandenbergrf.github.io/EthogramArchive/)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(DT)
+SpeciesList = read_csv("SpeciesList.csv")
+```
+
+
+# The Searchable Table
+
+Below you will find a table of the species currently in the system. 
+
+## Table
+
+```{r, echo=F}
+datatable(SpeciesList)
+
+```
+
+

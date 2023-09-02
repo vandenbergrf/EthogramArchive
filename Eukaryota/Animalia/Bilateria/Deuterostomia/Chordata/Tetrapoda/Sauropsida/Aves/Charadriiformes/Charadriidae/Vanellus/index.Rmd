@@ -1,0 +1,26 @@
+---
+title: "Vanellus genus page"
+date: "`r Sys.Date()`"
+output:   
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    toc_collapsed: true
+---
+
+[Return to Main](https://vandenbergrf.github.io/EthogramArchive/)
+
+[To Searchable Table](https://vandenbergrf.github.io/SearchTable/)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+## Species Table
+
+
+[Vanellus vanellus, northern lapwing](https://vandenbergrf.github.io/EthogramArchive/Eukaryota/Animalia/Bilateria/Deuterostomia/Chordata/Tetrapoda/Sauropsida/Aves/Charadriiformes/Charadriidae/Vanellus/Vanellus_vanellus)
+[Vanellus chilensis, southern lapwing](https://vandenbergrf.github.io/EthogramArchive/Eukaryota/Animalia/Bilateria/Deuterostomia/Chordata/Tetrapoda/Sauropsida/Aves/Charadriiformes/Charadriidae/Vanellus/Vanellus_chilensis)
