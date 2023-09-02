@@ -17,8 +17,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Test body
 
-## Link System
+## Searchable Table
 
-The link system aims to provide a comprehensive overview of all ethograms available on this website, and may be hard to navigate.
+The searchable table aims to provide a comprehensive overview of all ethograms available on this website.
 
-[To Link System](https://vandenbergrf.github.io/EthogramArchive/PhylogenyMenu)
+[To Searchable Table](https://vandenbergrf.github.io/EthogramArchive/SearchTable)

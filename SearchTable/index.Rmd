@@ -22,10 +22,15 @@ SpeciesList = read_csv("SpeciesList.csv")
 # The Searchable Table
 
 Below you will find a table of the species currently in the system. 
+To suggest an update, please specify which name changes (if any) and movements between different branches (if any) should be performed. Looking at you, bat phylogenists.
+If your preferred genus/family/order/kingdom/etc. is not on this page yet, put in a request! For convenience, the branches will be built bottom-up. So there won't be a page for felids until we have at least one page at species level.
 
 ## Table
 
 ```{r, echo=F}
+
+
+
 datatable(SpeciesList)
 
 ```
