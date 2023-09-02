@@ -1,5 +1,5 @@
 ---
-title: "Vanellus chilensis, southern lapwing"
+title: "Charadriidae Family page"
 date: "`r Sys.Date()`"
 output:   
   html_document:
@@ -13,17 +13,13 @@ output:
 
 [To Searchable Table](https://vandenbergrf.github.io/EthogramArchive/SearchTable/)
 
-[To Vanellus genus page](https://vandenbergrf.github.io/EthogramArchive/Eukaryota/Animalia/Bilateria/Deuterostomia/Chordata/Tetrapoda/Sauropsida/Aves/Charadriiformes/Charadriidae/Vanellus/)
-
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
 
-# The Searchable Table
+## Genus Table
 
-Below you will find a table of the species currently in the system. 
 
-## Table
+[Vanellus, lapwings](https://vandenbergrf.github.io/EthogramArchive/Eukaryota/Animalia/Bilateria/Deuterostomia/Chordata/Tetrapoda/Sauropsida/Aves/Charadriiformes/Charadriidae/Vanellus/)

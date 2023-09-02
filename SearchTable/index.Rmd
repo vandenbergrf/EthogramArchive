@@ -15,6 +15,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 library(readr)
 library(DT)
+library(dplyr)
 SpeciesList = read_csv("SpeciesList.csv")
 ```
 
@@ -29,9 +30,15 @@ If your preferred genus/family/order/kingdom/etc. is not on this page yet, put i
 
 ```{r, echo=F}
 
+SpeciesList$Page_Link = paste("<a href='",SpeciesList$Page_Link,"'>",SpeciesList$Species,"</a>",sep="")
+SpeciesList$Ethograms_In_Genus = NA
+Temp = SpeciesList %>% group_by(Genus) %>% summarise(Ethograms=sum(Number_Of_Ethograms))
+for(i in 1:nrow(Temp)){
+  SpeciesList$Ethograms_In_Genus[SpeciesList$Genus==Temp$Genus[i]] = Temp$Ethograms[i]
+}
+rm(Temp)
 
-
-datatable(SpeciesList)
+datatable(SpeciesList, escape=5)
 
 ```
 

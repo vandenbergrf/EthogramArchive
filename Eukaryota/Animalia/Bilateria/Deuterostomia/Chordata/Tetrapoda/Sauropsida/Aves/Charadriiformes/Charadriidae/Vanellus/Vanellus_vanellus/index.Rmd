@@ -11,7 +11,7 @@ output:
 
 [Return to Main](https://vandenbergrf.github.io/EthogramArchive/)
 
-[To Searchable Table](https://vandenbergrf.github.io/SearchTable/)
+[To Searchable Table](https://vandenbergrf.github.io/EthogramArchive/SearchTable/)
 
 [To Vanellus genus page](https://vandenbergrf.github.io/EthogramArchive/Eukaryota/Animalia/Bilateria/Deuterostomia/Chordata/Tetrapoda/Sauropsida/Aves/Charadriiformes/Charadriidae/Vanellus/)
 
@@ -22,8 +22,5 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-# The Searchable Table
+## Table of Ethograms
 
-Below you will find a table of the species currently in the system. 
-
-## Table

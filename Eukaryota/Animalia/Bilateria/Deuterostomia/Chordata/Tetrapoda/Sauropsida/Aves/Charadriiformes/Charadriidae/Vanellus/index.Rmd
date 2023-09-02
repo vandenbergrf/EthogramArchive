@@ -11,7 +11,7 @@ output:
 
 [Return to Main](https://vandenbergrf.github.io/EthogramArchive/)
 
-[To Searchable Table](https://vandenbergrf.github.io/SearchTable/)
+[To Searchable Table](https://vandenbergrf.github.io/EthogramArchive/SearchTable/)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -23,4 +23,5 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 [Vanellus vanellus, northern lapwing](https://vandenbergrf.github.io/EthogramArchive/Eukaryota/Animalia/Bilateria/Deuterostomia/Chordata/Tetrapoda/Sauropsida/Aves/Charadriiformes/Charadriidae/Vanellus/Vanellus_vanellus)
+
 [Vanellus chilensis, southern lapwing](https://vandenbergrf.github.io/EthogramArchive/Eukaryota/Animalia/Bilateria/Deuterostomia/Chordata/Tetrapoda/Sauropsida/Aves/Charadriiformes/Charadriidae/Vanellus/Vanellus_chilensis)
